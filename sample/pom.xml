@@ -8,7 +8,7 @@
 	<packaging>apk</packaging>
 
 	<parent>
-		<groupId>com.viewpagerindicator</groupId>
+		<groupId>com.jzviewpagerindicator</groupId>
 		<artifactId>parent</artifactId>
 		<version>2.4.1</version>
 		<relativePath>../pom.xml</relativePath>
@@ -27,7 +27,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.viewpagerindicator</groupId>
+			<groupId>com.jzviewpagerindicator</groupId>
 			<artifactId>library</artifactId>
 			<version>${project.version}</version>
 			<type>apklib</type>

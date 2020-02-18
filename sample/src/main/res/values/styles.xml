@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2012 Jake Wharton
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <!--        <item name="jzvpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>-->
+        <!--        <item name="jzvpiLinePageIndicatorStyle">@style/CustomLinePageIndicator</item>-->
+        <!--        <item name="jzvpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>-->
+        <!--        <item name="jzvpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>-->
+        <!--        <item name="jzvpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>-->
+    </style>
+
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">#18FF0000</item>
+        <!--        <item name="jzFooterColor">#FFAA2222</item>-->
+        <!--        <item name="jzFooterLineHeight">1dp</item>-->
+        <!--        <item name="jzFooterIndicatorHeight">3dp</item>-->
+        <!--        <item name="jzFooterIndicatorStyle">underline</item>-->
+        <item name="android:textColor">#AA000000</item>
+        <!--        <item name="jzSelectedColor">#FF000000</item>-->
+        <!--        <item name="jzSelectedBold">true</item>-->
+    </style>
+
+    <style name="CustomLinePageIndicator">
+        <!--        <item name="jzStrokeWidth">4dp</item>-->
+        <!--        <item name="jzLineWidth">30dp</item>-->
+        <!--        <item name="jzUnselectedColor">#FF888888</item>-->
+        <!--        <item name="jzSelectedColor">#FF880000</item>-->
+    </style>
+
+    <style name="CustomCirclePageIndicator">
+        <!--        <item name="jzFillColor">#FF888888</item>-->
+        <!--        <item name="jzStrokeColor">#FF000000</item>-->
+        <!--        <item name="jzStrokeWidth">2dp</item>-->
+        <!--        <item name="jzRadius">10dp</item>-->
+        <!--        <item name="jzCentered">true</item>-->
+    </style>
+
+    <!--    <style name="CustomTabPageIndicator" parent="Widget.JZTabPageIndicator">-->
+    <style name="CustomTabPageIndicator">
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="CustomUnderlinePageIndicator">
+        <!--        <item name="jzSelectedColor">#FFCC0000</item>-->
+        <item name="android:background">#FFCCCCCC</item>
+        <!--        <item name="jzFadeLength">1000</item>-->
+        <!--        <item name="jzFadeDelay">1000</item>-->
+    </style>
+</resources>

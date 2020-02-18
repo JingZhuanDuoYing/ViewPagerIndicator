@@ -9,7 +9,7 @@
         <version>7</version>
     </parent>
 
-    <groupId>com.viewpagerindicator</groupId>
+    <groupId>com.jzviewpagerindicator</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>2.4.1</version>
